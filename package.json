@@ -4,7 +4,7 @@
   "description": "practica-freecodecamp",
   "main": "app.js",
   "engines": {
-      "node": "14.x"
+    "node": "14.x"
   },
   "scripts": {
     "start": "node src/app.js",
@@ -17,6 +17,7 @@
     "express": "^4.17.1"
   },
   "devDependencies": {
+    "@vercel/node": "^1.12.1",
     "nodemon": "^2.0.12"
   }
 }
